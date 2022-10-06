@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="action.php">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas Pemweb2</title>
+</head>
+<body>
+    <div class="font"></div>
+    <div class="box1">
+        <h1>Rumah Makan Jaya</h1>
+    </div>
+    <br>
+    <img src="Gambar1.jpg" alt="Image" height="150" width="150">
+    <img src="Gambar2.jpg" alt="Image" height="150" width="150">
+    <img src="Gambar3.jpg" alt="Image" height="150" width="150">
+    <img src="Gambar4.jpg" alt="Image" height="150" width="150">
+    <div class="box2">
+    <form action="action.php" method="get">
+        <br><br>
+        <label>Nama: </label>
+        <input type="text" name="nama">
+        <br><br>
+        <label>Produk yang ingin dibeli: </label><br>
+        <select name="Pilih">
+            <option value="Ayam Geprek">Ayam Geprek</option>
+            <option value="Ayam Penyet">Ayam Penyet</option>
+            <option value="Ayam Bakar">Ayam Bakar</option>
+            <option value="Ayam Gulai">Ayam Gulai</option>
+        </select>
+        <br><br>
+        <label>Request Pesanan:</label><br>
+        <textarea name="Request" cols="50" rows="3"></textarea><br>
+        <br>
+        <label>Alamat Pengantaran:</label><br>
+        <textarea name="Alamat" cols="50" rows="3"></textarea>
+        <br><br>
+        <input type="submit" name="Submit" value="Kirim">
+    </form>
+</div>
+</div>
+
+    
+</body>
+</html>
