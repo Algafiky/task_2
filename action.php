@@ -1,5 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua; 
+        }
+        .box{
+            width: 1515px;
+            height: 100px;
+            text-align: center;
+            background: rgb(114, 17, 211);
+        }
+    </style>
+</head>
+<body>
+    
 <?php
-    echo '<center><h2 style="color:blue"> Nota Pesanan </h2></center>';        
+  
+    echo '<div class="box"><br><h2 style="color:black"> Nota Pesanan </h2></div>';        
     echo 'Atas Nama: ';
     echo $_GET['nama'];
     echo '<br>';
@@ -13,3 +35,5 @@
     echo $_GET['Alamat'];
 
 ?>
+</body>
+</html>
